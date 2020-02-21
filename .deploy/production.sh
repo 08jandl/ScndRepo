@@ -4,4 +4,4 @@ if [ -z "$CI_PROJECT_NAME" ]; then
   exit 1
 fi
 
-cp -r index.html produkte /var/www/shop-perfect/production/$CI_PROJECT_NAME/
+cp -r *.html produkte /var/www/shop-perfect/production/$CI_PROJECT_NAME/
